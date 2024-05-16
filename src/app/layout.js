@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
      <Provider store={store}>
 
       <Header/>
-      <h1 className="text-center mb-5 demo">My First NextJS and ReduxToolkit Demoss
+      <h1 className="text-center mb-5 demo">My First NextJS and ReduxToolkit Demo
       </h1>
         {children}        
         </Provider>
