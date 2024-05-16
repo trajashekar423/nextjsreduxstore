@@ -10,8 +10,8 @@ function About() {
         <div className="container">
             <div className="row">
             {Aboutitems.map(Aboutitems => (
-                <div className="col-4 mb-4">
-                    <div key={Aboutitems.id} class="card">                   
+                <div key={Aboutitems.id} className="col-4 mb-4">
+                    <div class="card">                   
                             <div class="card-body">
                                 <h5 class="card-title">{Aboutitems.title}</h5>
                                 <p class="card-text">{Aboutitems.description}</p>

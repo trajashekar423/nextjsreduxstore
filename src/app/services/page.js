@@ -11,7 +11,7 @@ function Services() {
             <div className='row'>
             <ul class="list-group">
                 {datas.map(datas => (
-                 <li class="list-group-item">{datas.category},{datas.price},{datas.title}</li>
+                 <li key={datas.id} class="list-group-item">{datas.category},{datas.price},{datas.title}</li>
                 ))}
             </ul>
             </div>
